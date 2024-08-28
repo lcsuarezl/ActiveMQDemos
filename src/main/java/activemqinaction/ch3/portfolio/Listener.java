@@ -1,8 +1,8 @@
 package activemqinaction.ch3.portfolio;
 
-import javax.jms.MapMessage;
-import javax.jms.Message;
-import javax.jms.MessageListener;
+import jakarta.jms.MapMessage;
+import jakarta.jms.Message;
+import jakarta.jms.MessageListener;
 import java.text.DecimalFormat;
 
 public class Listener implements MessageListener {

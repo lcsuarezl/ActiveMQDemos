@@ -1,7 +1,8 @@
 package activemqinaction.ch6.spring;
 
-import org.apache.activemq.book.ch5.Publisher;
-import org.apache.xbean.spring.context.FileSystemXmlApplicationContext;
+
+import activemqinaction.ch5.Publisher;
+import org.springframework.context.support.FileSystemXmlApplicationContext;
 
 
 public class SpringBroker {

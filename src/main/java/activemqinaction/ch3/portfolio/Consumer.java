@@ -1,6 +1,7 @@
 package activemqinaction.ch3.portfolio;
 
-import activemqinaction.ch2.jobs.Listener;
+
+import activemqinaction.ch2.portfolio.Listener;
 import org.apache.activemq.ActiveMQConnectionFactory;
 
 import jakarta.jms.*;

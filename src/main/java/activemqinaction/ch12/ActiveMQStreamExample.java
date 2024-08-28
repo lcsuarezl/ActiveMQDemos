@@ -21,10 +21,8 @@ import org.apache.activemq.ActiveMQConnectionFactory;
 
 import jakarta.jms.Queue;
 import jakarta.jms.Session;
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
-import java.io.InputStream;
-import java.io.OutputStream;
+
+import java.io.*;
 
 /**
  * Examples of how to use JMS Streams
@@ -70,9 +68,16 @@ public class ActiveMQStreamExample {
         //we want be be an exclusive consumer
         String exclusiveQueueName= QUEUE_NAME + "?consumer.exclusive=true";
         Queue destination = session.createQueue(exclusiveQueueName);
-        
-        InputStream in = connection.createInputStream(destination);
-        
+
+        //TODO
+        //InputStream in = connection.createInputStream(destination);
+        InputStream in = new InputStream() {
+            @Override
+            public int read() throws IOException {
+                return 0;
+            }
+        };
+
         //now write the file from ActiveMQ
         byte[] buffer = new byte[1024];
         while(true){

@@ -5,92 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40979806-7922-43ad-8573-c2f65130fb1b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/activemqinaction/ch11/AdvisoryExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/activemqinaction/ch11/CamelExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/activemqinaction/ch11/RetroactiveConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/activemqinaction/ch11/VirtualTopics.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/activemqinaction/ch11/WildcardAndCompositeExamples.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/activemqinaction/ch12/ActiveMQStreamExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/activemqinaction/ch12/BlobMessageExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/activemqinaction/ch12/ExclusiveProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/activemqinaction/ch12/MessageGroup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/activemqinaction/ch13/BatchSending.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/activemqinaction/ch13/EmbeddedService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/activemqinaction/ch13/RealTimeDataFeed.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/activemqinaction/ch14/advisory/Advisory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/activemqinaction/ch14/advisory/ConsumerAdvisoryListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/activemqinaction/ch14/advisory/NoConsumerAdvisoryListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/activemqinaction/ch14/advisory/Publisher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/activemqinaction/ch14/advisory/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/activemqinaction/ch14/jmx/Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/activemqinaction/ch14/jmx/Listener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/activemqinaction/ch14/jmx/Stats.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/activemqinaction/ch14/jmx/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/activemqinaction/ch2/jobs/Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/activemqinaction/ch2/jobs/Listener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/activemqinaction/ch2/jobs/Producer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/activemqinaction/ch2/jobs/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/activemqinaction/ch2/portfolio/Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/activemqinaction/ch2/portfolio/Listener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/activemqinaction/ch2/portfolio/Publisher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/activemqinaction/ch2/portfolio/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/activemqinaction/ch3/Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/activemqinaction/ch3/Publisher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/activemqinaction/ch3/jobs/Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/activemqinaction/ch3/jobs/Listener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/activemqinaction/ch3/jobs/Publisher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/activemqinaction/ch3/jobs/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/activemqinaction/ch3/portfolio/Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/activemqinaction/ch3/portfolio/Listener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/activemqinaction/ch3/portfolio/Publisher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/activemqinaction/ch3/portfolio/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/activemqinaction/ch4/AMQStoreEmbeddedBroker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/activemqinaction/ch4/Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/activemqinaction/ch4/KahaDBEmbeddedBroker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/activemqinaction/ch4/MemoryStoreEmbeddedBroker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/activemqinaction/ch4/Publisher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/activemqinaction/ch4/RetroactiveConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/activemqinaction/ch5/AuthorizationPolicy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/activemqinaction/ch5/Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/activemqinaction/ch5/IPAuthenticationBroker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/activemqinaction/ch5/IPAuthenticationPlugin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/activemqinaction/ch5/Publisher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/activemqinaction/ch5/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/activemqinaction/ch6/AuthorizationPolicy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/activemqinaction/ch6/Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/activemqinaction/ch6/IPAuthenticationBroker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/activemqinaction/ch6/IPAuthenticationPlugin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/activemqinaction/ch6/Publisher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/activemqinaction/ch6/broker/Broker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/activemqinaction/ch6/broker/Factory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/activemqinaction/ch6/broker/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/activemqinaction/ch6/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/activemqinaction/ch6/spring/SpringBroker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/activemqinaction/ch6/spring/SpringClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/activemqinaction/ch6/spring/SpringPublisher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/activemqinaction/ch6/spring/StockMessageCreator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/activemqinaction/ch6/spring/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/activemqinaction/ch7/spring/BrokerFactoryBeanExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/activemqinaction/ch7/spring/SpringClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/activemqinaction/ch7/spring/SpringPublisher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/activemqinaction/ch7/spring/StockMessageCreator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/activemqinaction/ch7/spring/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/activemqinaction/ch7/sync/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/activemqinaction/ch7/sync/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/activemqinaction/ch7/xbean/Broker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/activemqinaction/ch7/xbean/Factory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/activemqinaction/ch7/xbean/XBeanBroker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/activemqinaction/ch7/xbean/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/activemqinaction/ch8/Publisher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/activemqinaction/ch9/Publisher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/CH2/camel_microservice_a/CamelMicroserviceAApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/activemqinaction/ch12/ActiveMQStreamExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/activemqinaction/ch12/ActiveMQStreamExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/activemqinaction/ch3/portfolio/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/activemqinaction/ch3/portfolio/Consumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/activemqinaction/ch3/portfolio/Listener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/activemqinaction/ch3/portfolio/Listener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/activemqinaction/ch6/spring/SpringBroker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/activemqinaction/ch6/spring/SpringBroker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/activemqinaction/ch6/spring/SpringClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/activemqinaction/ch6/spring/SpringClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CH2/camel_microservice_a/CamelMicroserviceAApplicationTests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -1,6 +1,6 @@
 package activemqinaction.ch6.spring;
 
-import org.apache.xbean.spring.context.FileSystemXmlApplicationContext;
+import org.springframework.context.support.FileSystemXmlApplicationContext;
 
 
 public class SpringClient {
