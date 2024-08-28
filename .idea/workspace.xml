@@ -5,15 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40979806-7922-43ad-8573-c2f65130fb1b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j2.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/activemqinaction/ch12/ActiveMQStreamExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/activemqinaction/ch12/ActiveMQStreamExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/activemqinaction/ch3/portfolio/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/activemqinaction/ch3/portfolio/Consumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/activemqinaction/ch3/portfolio/Listener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/activemqinaction/ch3/portfolio/Listener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/activemqinaction/ch6/spring/SpringBroker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/activemqinaction/ch6/spring/SpringBroker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/activemqinaction/ch6/spring/SpringClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/activemqinaction/ch6/spring/SpringClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CH2/camel_microservice_a/CamelMicroserviceAApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/activemqinaction/ch2/portfolio/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/activemqinaction/ch2/portfolio/Consumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/activemqinaction/ch2/portfolio/Listener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/activemqinaction/ch2/portfolio/Listener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/activemqinaction/ch2/portfolio/Publisher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/activemqinaction/ch2/portfolio/Publisher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +22,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
@@ -34,6 +37,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Consumer.executor": "Run",
+    "Application.Producer.executor": "Run",
+    "Application.Publisher.executor": "Run",
+    "Application.activemqinaction.ch2.portfolio.Consumer.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -52,6 +59,70 @@
       <recent name="C:\git\github\lc\ActiveMQDemos" />
     </key>
   </component>
+  <component name="RunManager" selected="Application.activemqinaction.ch2.portfolio.Consumer">
+    <configuration name="Consumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="activemqinaction.ch2.jobs.Consumer" />
+      <module name="ActiveMQDemos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="activemqinaction.ch2.jobs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Producer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="activemqinaction.ch2.jobs.Producer" />
+      <module name="ActiveMQDemos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="activemqinaction.ch2.jobs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Publisher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="activemqinaction.ch2.portfolio.Publisher" />
+      <module name="ActiveMQDemos" />
+      <option name="PROGRAM_PARAMETERS" value="IONA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="activemqinaction.ch2.portfolio.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="activemqinaction.ch2.portfolio.Consumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="activemqinaction.ch2.portfolio.Consumer" />
+      <module name="ActiveMQDemos" />
+      <option name="PROGRAM_PARAMETERS" value="IONA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="activemqinaction.ch2.portfolio.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Publisher" />
+        <item itemvalue="Application.activemqinaction.ch2.portfolio.Consumer" />
+        <item itemvalue="Application.Consumer" />
+        <item itemvalue="Application.Producer" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -62,5 +133,16 @@
       <updated>1724860076941</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/activemqinaction/ch2/portfolio/Publisher.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
